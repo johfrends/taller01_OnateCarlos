@@ -1,0 +1,88 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.boton {
+    background-color: #2210c5;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #201dd6;
+}
+
+.barra-busqueda {
+    display: flex;
+    align-items: center;
+}
+
+.input-busqueda {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.boton-azul {
+    background-color: #2196F3;
+    margin-left: 10px;
+}
+
+.boton-azul:hover {
+    background-color: #0b7dda;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+}
+
+h1, p {
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+.dropdown-container {
+    text-align: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
