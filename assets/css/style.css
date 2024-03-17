@@ -86,3 +86,8 @@ h1, p {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.fondo {
+
+    background-color: yellow;
+}
